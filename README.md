@@ -9,3 +9,13 @@ Used for making capslock act as esc when pressed and ctrl when held
 
 1. Install keyd with package manager
 2. Start keyd `sudo systemctl enable keyd --now`
+3. Put config file in `/etc/keyd/default.conf`
+4. Reload the config with `sudo keyd reload`
+
+## Tmux
+1. clone repo
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+2. Put config file in home directory
+3. Make sure you do `<leader> I` to insure tpm installs plugins
